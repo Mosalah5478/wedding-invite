@@ -44,8 +44,6 @@ const storyItems = [
   },
 ];
 
-    const BASE_URL = import.meta.env.BASE_URL;
-
     const galleryItems = [
       {
         title: "A Toast",
