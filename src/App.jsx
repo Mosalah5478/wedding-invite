@@ -266,7 +266,7 @@ export default function App() {
         <header className="site-header">
           <div className="site-header-top">
             <div className="brand-mark">
-              L<span>&</span>K
+              S<span>&</span>A
             </div>
           </div>
 
@@ -285,7 +285,7 @@ export default function App() {
               <div className="hero-overlay">
                 <p className="hero-kicker">WITH JOY IN OUR HEARTS</p>
                 <h1>
-                  Layla <span>&</span> Kareem
+                  Sama <span>&</span> Ahmed
                 </h1>
                 <p className="hero-paragraph">
                   We are delighted to invite you to celebrate our wedding day and share with us the beginning of our new chapter together.
@@ -305,7 +305,7 @@ export default function App() {
               </p>
               <div className="welcome-signature">
                 <span>With love</span>
-                <strong>Layla & Kareem</strong>
+                <strong>Sama & Ahmed</strong>
               </div>
             </div>
           </section>
