@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
+const BASE_URL = import.meta.env.BASE_URL;
 
 const countdownTarget = new Date("2026-05-02T18:00:00");
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/mzdygbwg";
@@ -43,32 +44,30 @@ const storyItems = [
   },
 ];
 
-const galleryItems = [
-  {
-    title: "A Toast",
-    subtitle: "To love and joy",
-    image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80",
-  },
-  {
-    title: "Forever Starts",
-    subtitle: "A beautiful promise",
-    image:
-      "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1600&q=80",
-  },
-  {
-    title: "A Lovely Memory",
-    subtitle: "Our favorite moment",
-    image:
-      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1600&q=80",
-  },
-  {
-    title: "Together",
-    subtitle: "A timeless chapter",
-    image:
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1600&q=80",
-  },
-];
+    const BASE_URL = import.meta.env.BASE_URL;
+
+    const galleryItems = [
+      {
+        title: "A Toast",
+        subtitle: "To love and joy",
+        image: `${BASE_URL}images/Png1.jpeg`,
+      },
+      {
+        title: "Forever Starts",
+        subtitle: "A beautiful promise",
+        image: `${BASE_URL}images/Png2.jpeg`,
+      },
+      {
+        title: "A Lovely Memory",
+        subtitle: "Our favorite moment",
+        image: `${BASE_URL}images/Png3.jpeg`,
+      },
+      {
+        title: "Together",
+        subtitle: "A timeless chapter",
+        image: `${BASE_URL}images/Png4.jpeg`,
+      },
+    ];
 
 const faqItems = [
   {
