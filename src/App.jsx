@@ -67,31 +67,6 @@ const storyItems = [
       },
     ];
 
-const BASE_URL = import.meta.env.BASE_URL;
-
-const galleryItems = [
-  {
-    title: "A Toast",
-    subtitle: "To love and joy",
-    image: `${BASE_URL}images/Png1.jpeg`,
-  },
-  {
-    title: "Forever Starts",
-    subtitle: "A beautiful promise",
-    image: `${BASE_URL}images/Png2.jpeg`,
-  },
-  {
-    title: "A Lovely Memory",
-    subtitle: "Our favorite moment",
-    image: `${BASE_URL}images/Png3.jpeg`,
-  },
-  {
-    title: "Together",
-    subtitle: "A timeless chapter",
-    image: `${BASE_URL}images/Png4.jpeg`,
-  },
-];
-
 const faqItems = [
   {
     q: "Can I confirm attendance through the website?",
