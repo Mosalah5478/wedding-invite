@@ -47,22 +47,26 @@ const galleryItems = [
   {
     title: "A Toast",
     subtitle: "To love and joy",
-        image:"/images/MM.jpeg",
+    image:
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80",
   },
   {
     title: "Forever Starts",
     subtitle: "A beautiful promise",
-    image:"/images/MM.jpeg",
+    image:
+      "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1600&q=80",
   },
   {
     title: "A Lovely Memory",
     subtitle: "Our favorite moment",
-    image:"/images/MM.jpeg",
+    image:
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1600&q=80",
   },
   {
     title: "Together",
     subtitle: "A timeless chapter",
-    image:"/images/MM.jpeg",
+    image:
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1600&q=80",
   },
 ];
 
